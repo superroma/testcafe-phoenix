@@ -14,7 +14,7 @@ ENV ALPINE_REPOS="\
 
 RUN apk --no-cache $ALPINE_REPOS upgrade && \
  apk --no-cache $ALPINE_REPOS add \
- libevent nodejs npm chromium firefox xwininfo xvfb dbus eudev ttf-freefont fluxbox procps tzdata
+ libevent nodejs npm chromium chromium-lang firefox xwininfo xvfb dbus eudev ttf-freefont fluxbox procps tzdata
 
 RUN npm install -g /opt/testcafe/${packageId} && \
  npm cache clean --force && \
