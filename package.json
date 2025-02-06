@@ -144,7 +144,7 @@
     "source-map-support": "^0.5.16",
     "strip-bom": "^2.0.0",
     "testcafe-browser-tools": "2.0.26",
-    "testcafe-hammerhead": "31.7.4",
+    "testcafe-hammerhead": "https://github.com/Bayheck/Builds/raw/main/testcafe-hammerhead-31.7.4.tgz",
     "testcafe-legacy-api": "5.1.8",
     "testcafe-reporter-json": "^2.1.0",
     "testcafe-reporter-list": "^2.2.0",

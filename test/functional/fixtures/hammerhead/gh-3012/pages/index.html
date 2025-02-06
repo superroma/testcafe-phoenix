@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Worker</title>
+    </head>
+    <body>
+        <script>
+            const worker = new Worker("worker.js");
+            worker.onmessage = (e) => {
+                console.log(e.data);
+            };
+        </script>
+    </body>
+</html>
